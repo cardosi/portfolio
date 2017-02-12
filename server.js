@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 //PORT
-var port = 3000 || process.env.PORT;
+var port = process.env.PORT || 3000;
 
 // MIDDLEWARE
 app.use(express.static('public'));
