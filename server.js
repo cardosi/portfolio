@@ -4,7 +4,7 @@ var app = express();
 //PORT
 var port = 3000 || process.env.PORT;
 
-//MIDDLEWARE
+// MIDDLEWARE
 app.use(express.static('public'));
 
 //LISTEN
