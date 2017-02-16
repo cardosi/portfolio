@@ -2,24 +2,64 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-route.min.js">
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script type="text/javascript" src="/js/app.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css?family=Asap|Bungee|Bungee+Shade|Monoton" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css" charset="utf-8">
     <title>Cam's Portfolio</title>
+    <base href="/">
   </head>
-  <body>
-    <ul class="nav nav-pills">
-      <li role="presentation" class="active"><a href="#">Home</a></li>
-      <li role="presentation"><a href="#">Projects</a></li>
-      <li role="presentation"><a href="#">Connect</a></li>
-      <li role="presentation"><a href="#">Inspiration</a></li>
-    </ul>
-    <h1>Cam Cardosi's Portfolio</h1>
+  <body ng-app='portfolioApp'>
+    <div class="row">
+      <div class="col-sm-9 topGuy">
+        <div class="headContainer">
+          <img id="profile" src="/images/camsHead.jpg" alt="">
+          <h1>Cam Cardosi</h1>
+        </div>
+      </div>
+      <div class="col-sm-3" id="topCorner">
+        <div id="tri"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-9 main">
+        <main ng-view></main>
+      </div>
+      <div class="col-sm-3 bar">
+        <div class="barElement">
+          <a href='/'>
+            <h4>About</h4>
+          </a>
+        </div>
+        <div class="barElement">
+          <a href='/projects'>
+            <h4>Projects</h4>
+          </a>
+        </div>
+        <div class="barElement">
+          <a href="/connect">
+            <h4>Connect</h4>
+          </a>
+        </div>
+        <div class="barElement">
+          <a href="/resume">
+            <h4>Resume</h4>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-9 foot">
+        
+      </div>
+      <div class="col-sm-3 sideFoot">
 
+      </div>
+    </div>
   </body>
 </html>
