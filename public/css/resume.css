@@ -1,0 +1,11 @@
+embed {
+  width: 100%;
+  height: 500px;
+}
+
+.icon {
+  margin-top: 10px;
+  margin-left: 24%;
+  width: 10%;
+  height: auto;
+}

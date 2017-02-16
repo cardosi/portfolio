@@ -1,0 +1,25 @@
+p {
+  color: #547980;
+  font-family: 'Asap', sans-serif;
+  font-size: 1.5em;
+}
+
+h4 {
+  color: #547980;
+  font-family: 'Bungee', cursive;
+}
+
+h3 {
+  color: #547980;
+  font-family: 'Bungee', cursive;
+  text-align: center;
+}
+
+#GA {
+  width: 90%;
+  height: auto;
+}
+
+img {
+  margin: auto;
+}

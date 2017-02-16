@@ -1,0 +1,54 @@
+h2 {
+  text-align: center;
+  margin: auto;
+  color: #547980;
+  font-family: 'Bungee', cursive;
+}
+
+.project {
+  color: #547980;
+  font-family: 'Bungee';
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  display: inline-block;
+}
+
+p {
+  text-align: center;
+  color: #547980;
+  font-family: 'Asap', sans-serif;
+  font-size: 1.1em;
+}
+
+#endeavor {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  border-radius: 10%;
+  display: inline-block;
+  text-align: center;
+}
+
+#congress {
+  width: 20%;
+  height: auto;
+  border-radius: 10%;
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+}
+
+#blackjack {
+  width: 20%;
+  height: auto;
+  border-radius: 10%;
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.imageBox {
+  margin: auto;
+  text-align: center;
+}

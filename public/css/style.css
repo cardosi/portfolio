@@ -61,7 +61,7 @@ h1 {
 
 .bar {
   background-color: #594F4F;
-  height: 800px;
+  height: 650px;
 }
 
 .barElement a {
@@ -96,7 +96,7 @@ main {
 
 .main {
   background-color: #E5FCC2;
-  height: 800px;
+  height: 650px;
   padding: 0;
 }
 
@@ -109,4 +109,11 @@ main {
   background: linear-gradient(to left bottom, #594F4F 50%, #547980 50%);
   /*background-color: black;*/
   height: 200px;
+}
+
+.icon {
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 10%;
+  height: auto;
 }
